@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Disney+ Clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="./images/logo.png" class="brand-logo" alt="Logo">
+        <ul class="nav-links">
+            <li class="nav-item"><a href="#">TV</a></li>
+            <li class="nav-item"><a href="#">Movies</a></li>
+            <li class="nav-item"><a href="#">Sports</a></li>
+            <li class="nav-item"><a href="#">Premium</a></li>
+        </ul>
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="Search">
+            <button class="sub-btn">Subscribe</button>
+            <a href="#" class="login-link">Login</a>
+        </div>
+    </nav>
+    
+    <div class="carousel-container">
+        <div class="carousel">
+            
+        </div>
+    </div>
+
+    <div class="video-card-container">
+        <div class="video-card">
+            <img src="./images/disney.png" class="video-card-image" alt="disney logo">
+            <video src="./videos/disney.mp4" muted loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="./images/pixar.png" class="video-card-image" alt="pixar logo">
+            <video src="./videos/pixar.mp4" muted loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="./images/marvel.png" class="video-card-image" alt="marvel logo">
+            <video src="./videos/marvel.mp4" muted loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="./images/star-wars.png" class="video-card-image" alt="star-wars logo">
+            <video src="./videos/star-war.mp4" muted loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="./images/geographic.png" class="video-card-image" alt="geographic logo">
+            <video src="./videos/geographic.mp4" muted loop class="card-video"></video>
+        </div>
+    </div> 
+
+
+    <h1 class="title">Recommended For You</h1>
+
+
+    <div class="movies-list">
+        <button class="pre-btn" title="btn">
+            <img src="./images/pre.png" alt="pre btn">
+        </button>
+        <button class="nxt-btn" title="btn">
+            <img src="./images/nxt.png" alt="next btn">
+        </button>
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/poster 1.png" class="card-image" alt="p1">
+                <div class="card-body">
+                    <h2 class="name">Loki</h2>
+                    <h6 class="des">Loki is a character from Norse mythology who is known as a trickster.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/poster 2.png" class="card-image" alt="p2">
+                <div class="card-body">
+                    <h2 class="name">Mulan</h2>
+                    <h6 class="des">Mulan is a Chinese folk hero and the star of the ancient Chinese poem."</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/poster 3.png" class="card-image" alt="p3">
+                <div class="card-body">
+                    <h2 class="name">The Falcon and the Winter Soldier</h2>
+                    <h6 class="des">American television.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/poster 4.png" class="card-image" alt="p4">
+                <div class="card-body">
+                    <h2 class="name">Avengers: end game</h2>
+                    <h6 class="des">This is the best Marvel movie</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/poster 5.png" class="card-image" alt="p1">
+                <div class="card-body">
+                    <h2 class="name">Thor: Ragnarok</h2>
+                    <h6 class="des">It is a superhero film based on the Marvel character Thor.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/poster 6.png" class="card-image" alt="p2">
+                <div class="card-body">
+                    <h2 class="name">The Avengers</h2>
+                    <h6 class="des">A superhero film that brings together various Marvel characters</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/poster 7.png" class="card-image" alt="p3">
+                <div class="card-body">
+                    <h2 class="name">Pirates of the Caribbean</h2>
+                    <h6 class="des">An American fantasy supernatural film series</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/poster 8.png" class="card-image" alt="p4">
+                <div class="card-body">
+                    <h2 class="name">Soul</h2>
+                    <h6 class="des">American computer-animated fantasy comedy-drama film</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/poster 9.png" class="card-image" alt="p1">
+                <div class="card-body">
+                    <h2 class="name">Raya and the Last Dragon</h2>
+                    <h6 class="des">A American computer-animated fantasy film .</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/poster 10.png" class="card-image" alt="p2">
+                <div class="card-body">
+                    <h2 class="name">Luca</h2>
+                    <h6 class="des"> American computer-animated coming-of-age fantasy film.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/poster 11.png" class="card-image" alt="p3">
+                <div class="card-body">
+                    <h2 class="name">Ford v Ferrari</h2>
+                    <h6 class="des">Ford v Ferrari is a 2019 American biographical sports drama film.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/poster 12.png" class="card-image" alt="p4">
+                <div class="card-body">
+                    <h2 class="name">Dark Phoenix</h2>
+                    <h6 class="des">The story revolves around Jean struggling with mental illness.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+   
+
+
+    <h1 class="title">Popular Movies</h1>
+
+    
+    <div class="movies-list">
+        <button class="pre-btn" title="btn">
+            <img src="./images/pre.png" alt="pre btn">
+        </button>
+        <button class="nxt-btn" title="btn">
+            <img src="./images/nxt.png" alt="next btn">
+        </button>
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/pm1.png" class="card-image" alt="p1">
+                <div class="card-body">
+                    <h2 class="name">Mission Mangal</h2>
+                    <h6 class="des">Mission Mangal is a 2019 Indian Hindi-language drama film </h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pm2.png" class="card-image" alt="p2">
+                <div class="card-body">
+                    <h2 class="name">Chhichhore</h2>
+                    <h6 class="des">The story revolves around a group of reunited friends.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pm3.png" class="card-image" alt="p3">
+                <div class="card-body">
+                    <h2 class="name">Housefull 4</h2>
+                    <h6 class="des">It is the fourth installment in the Housefull film series.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pm4.png" class="card-image" alt="p4">
+                <div class="card-body">
+                    <h2 class="name">Baahubali 2</h2>
+                    <h6 class="des">It is the sequel to the 2015 film Baahubali: The Beginning.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pm5.png" class="card-image" alt="p1">
+                <div class="card-body">
+                    <h2 class="name">Raid</h2>
+                    <h6 class="des">the movie is based on the most high-profile income tax raids.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pm6.jpg" class="card-image" alt="p2">
+                <div class="card-body">
+                    <h2 class="name">Badhaai Do</h2>
+                    <h6 class="des"> Badhaai Do is a hilarious and heartwarming sequel.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pm7.png" class="card-image" alt="p3">
+                <div class="card-body">
+                    <h2 class="name">Bajrangi Bhaijaan</h2>
+                    <h6 class="des"> The film tells the story of a young mute girl from Pakistan.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pm8.png" class="card-image" alt="p4">
+                <div class="card-body">
+                    <h2 class="name">Tanhaji</h2>
+                    <h6 class="des">The Unsung Warrior is a 2020 Indian historical action film.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pm9.png" class="card-image" alt="p1">
+                <div class="card-body">
+                    <h2 class="name">Total Dhamaal</h2>
+                    <h6 class="des"> It is the third installment in the Dhamaal film series.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pm10.png" class="card-image" alt="p2">
+                <div class="card-body">
+                    <h2 class="name">M.S. Dhoni</h2>
+                    <h6 class="des">Dhoni's journey from a small town boy to becoming the captain.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pm11.png" class="card-image" alt="p3">
+                <div class="card-body">
+                    <h2 class="name">Bhool Bhulaiyaa</h2>
+                    <h6 class="des">A haunted mansion where a newly married couple moves in.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/pm12.png" class="card-image" alt="p4">
+                <div class="card-body">
+                    <h2 class="name">Judwaa 2</h2>
+                    <h6 class="des">The film follows the story of twin brothers, Raja and Prem.</h6>
+                    <button class="watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+    <script src="./index.js" async></script>
+
+</body>
+</html>
